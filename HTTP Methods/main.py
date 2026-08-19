@@ -4,8 +4,8 @@ import json
 app = FastAPI()
 
 def load_data():
-    with open('studdent.json', 'r') as f:
-        data = json.load(f)
+    with open('studdent.json', 'r') as F:
+        data = json.load(F)
     return data
 
 @app.get("/")
