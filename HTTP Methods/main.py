@@ -14,7 +14,7 @@ def home():
 
 @app.get("/about")
 def about():
-    return "A fully functional API to manage our students records."
+    return "A fully functional API to Manage our Students records."
 
 @app.get("/view")
 def view_students():
